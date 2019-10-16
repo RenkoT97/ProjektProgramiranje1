@@ -1,12 +1,13 @@
 # Projekt pri predmetu programiranje 1: Analiza iger šaha
 
-Analizirala bom 20000 iger šaha. Podatke bom dobila [tu](https://www.kaggle.com/datasnaek/chess?fbclid=IwAR2Rv919BiSxcg4cfojjplukWl1xpPhtAbJ_oQSw0w7NX1yHIGmdWU8CZRU).
+Analizirala bom igre šaha. Podatke bom dobila [tu](https://chesstempo.com/game-database.html).
 
 Za vsako igro bom zajela:
-* id igre,
-* id, rating in barvo figur obeh igralcev,
+* id in datum igre,
+* ime, točke po elo ratingu in barvo figur obeh igralcev,
 * zmagovalca,
-* potek igre (vse premike),
+* kraj in dogodek, v katerem se igra odvija,
+* število premikov,
 * otvoritev.
 
 Hipoteze:
